@@ -1,0 +1,8 @@
+micronaut:
+  application:
+    name: jmsSandbox
+  jms:
+    activemq:
+      classic:
+        enabled: true
+        connection-string: tcp://localhost:61616
